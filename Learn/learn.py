@@ -14,3 +14,5 @@ for fruits in fruits:
 
 for char in "Apples":
     print(char)
+    
+person = {"name": "John", "age": 30, "city": "New York"}
