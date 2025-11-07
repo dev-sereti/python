@@ -119,6 +119,12 @@ if y is not None:
     
 #Ternary Operator (Conditional Expression)
 
-myAge = 13
+myAge = 3
 status = "Adult" if myAge>= 18 else "Minor"
 print(status)
+
+#Multiple Conditions
+if myAge>10 and myAge<30:
+    print("Your age is between 10 and 30")
+else:
+    print("Your age is below 10 or more than 30")
