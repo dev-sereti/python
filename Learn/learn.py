@@ -116,3 +116,9 @@ y=[1,2.3]
 
 if y is not None:
     print("Y has values")
+    
+#Ternary Operator (Conditional Expression)
+
+myAge = 13
+status = "Adult" if myAge>= 18 else "Minor"
+print(status)
