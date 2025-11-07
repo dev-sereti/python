@@ -96,8 +96,12 @@ fruits = ["Apples","Oranges","Bananas","Cherry"]
 if "Apples" in fruits:
     print("Apples are in the store")
     
-
+#Check substring
 Greetings = "Hello Sereti"
 
 if "llo" in Greetings:
     print("You have greetings")
+    
+#not in - Check if value doesn't exist
+if "mango" not in fruits:
+    print("Get some Mangoes")
