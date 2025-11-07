@@ -67,4 +67,15 @@ has_licence=True
 
 if age>25 and has_licence:
     print("You can drive")
+
+#At least one condition must be True
+
+day = "Sunday"
+if day == "Saturday" or "Sunday":
+    print("It is a weekend")
+else:
+    print("Weekday")
+    
+    
+
     
