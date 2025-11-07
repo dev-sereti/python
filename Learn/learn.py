@@ -9,7 +9,7 @@ else:
 
 #if-elif-else Statement
 
-Score = 85.5
+Score = 5.5
 
 if Score>=90:
     print("Grade: A")
@@ -27,4 +27,11 @@ elif Score>=30:
     print("Grade: C-")
 else:
     print("Fail")
+
+
+#Comparison Operators
+
+x=20
+y=88
+
 
