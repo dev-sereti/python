@@ -16,3 +16,7 @@ for char in "Apples":
     print(char)
     
 person = {"name": "John", "age": 30, "city": "New York"}
+
+# Iterate over keys
+for key in person:
+    print(key)
