@@ -59,5 +59,12 @@ if x>=10:
 if x<=10:
     print ("X is less than 10")
     
-          
+#Logical Operators
+#and - Both conditions must be True
 
+age=25
+has_licence=True
+
+if age>25 and has_licence:
+    print("You can drive")
+    
