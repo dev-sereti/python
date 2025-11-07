@@ -70,7 +70,7 @@ if age>25 and has_licence:
 
 #At least one condition must be True
 
-day = "Sunday"
+day = "Monday"
 if day == "Saturday" or "Sunday":
     print("It is a weekend")
 else:
