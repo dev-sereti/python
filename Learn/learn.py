@@ -1,11 +1,11 @@
 #Conditional Statements
 #--- If statement ---
 
-Age = 28
+Age = 8
 if Age>=18: 
     print("Not Under Age")
 else:
-    print("Under age");
+    print("Under age")
 
 
 
