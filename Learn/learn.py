@@ -45,7 +45,8 @@ if x!=y:
 #Greater than
 if x>y:
     print("X is greater than Y")
-
+    
+#Less than
 if x<y:
     print("X is less than Y")
 
