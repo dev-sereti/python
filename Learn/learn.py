@@ -76,6 +76,28 @@ if day == "Saturday" or "Sunday":
 else:
     print("Weekday")
     
+#Nested Conditionals
+age = 20
+has_ticket = True
+
+if age>=18:
+    if has_ticket:
+        print("Allowed to attend")
+    else:
+        print("You need a ticket")
+else:
+    print("Too young")
+    
+#Membership Operators
+#in - Check if value exists in sequence
+
+fruits = ["Apples","Oranges","Bananas","Cherry"]
+
+if "Apples" in fruits:
+    print("Apples are in the store")
     
 
-    
+Greetings = "Hello Sereti"
+
+if "llo" in Greetings:
+    print("You have greetings")
