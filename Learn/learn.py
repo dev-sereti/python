@@ -111,9 +111,8 @@ x=None
 if x is None:
     print("x is None")
 
-#is not
-   
+#is not 
 y=[1,2.3]
 
 if y is not None:
-    print("Y has values");
+    print("Y has values")
