@@ -34,4 +34,14 @@ else:
 x=20
 y=88
 
+#Equal
+if x==y:
+    print("Equal")
+
+#Not equal
+if x!=y:
+    print("Not equal")
+    
+#Greater than
+
 
