@@ -50,5 +50,14 @@ if x>y:
 if x<y:
     print("X is less than Y")
 
+# Greater than or equal to
+if x>=10:
+    print("X is greater")
+    
+#Less than equal to 
 
+if x<=10:
+    print ("X is less than 10")
+    
+          
 
