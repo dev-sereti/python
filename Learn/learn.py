@@ -105,3 +105,8 @@ if "llo" in Greetings:
 #not in - Check if value doesn't exist
 if "mango" not in fruits:
     print("Get some Mangoes")
+
+#Identity Operators
+x=None
+if x is None:
+    print("x is None")
