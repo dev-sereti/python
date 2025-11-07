@@ -128,3 +128,20 @@ if myAge>10 and myAge<30:
     print("Your age is between 10 and 30")
 else:
     print("Your age is below 10 or more than 30")
+    
+#  Match-Case Statement
+
+def http_status(status):
+    match status:
+        case 200:
+            return "OK"
+        case 404:
+            return "Not found"
+        case 500:
+            return "Internal server error"
+        case _:
+            return "Unknown Error"
+print(http_status)
+
+#Loops
+
