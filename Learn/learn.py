@@ -1,5 +1,2 @@
-#For loop
-
-fruits = ["Apple","Banana","Cherry"]
-for i in fruits:
-    print(i)
+a = "Hello, World!"
+print(a[1])
