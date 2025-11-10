@@ -1,4 +1,4 @@
-my_string = "   Hello World   "
+my_string = "Hello World"
 
 # Case conversion
 print(my_string.upper())      # Output: "   HELLO WORLD   "
