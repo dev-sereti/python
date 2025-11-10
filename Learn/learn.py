@@ -1,4 +1,11 @@
-person = {"name": "John", "age": 30, "city": "New York"}
-# Iterate over key-value pairs
-for key,value in person.items():
-    print(f"{key}:{value}")
+n = int(input())
+
+if n % 2 == 1:  # If n is odd
+    print("Weird")
+else:  # If n is even
+    if 2 <= n <= 5:
+        print("Not Weird")
+    elif 6 <= n <= 20:
+        print("Weird")
+    else:  # n > 20
+        print("Not Weird")
