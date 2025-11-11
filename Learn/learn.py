@@ -6,5 +6,5 @@ def sum_all(*args):
         total += num
     return total
 
-print(sum_all(1, 2, 3))         # Output: 6
-print(sum_all(10, 20, 30, 40))  # Output: 100
+print(sum_all(1, 2, 3))
+#print(sum_all(10, 20, 30, 40))
