@@ -6,4 +6,8 @@ fruits = ["apple","Kiwi", "mango","banana", "cherry"]
 
 #Use the list() method
 newFruits = list(fruits)
+#print(newFruits)
+
+#Use the slice Operator
+newFruits = fruits[:]
 print(newFruits)
