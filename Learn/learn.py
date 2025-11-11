@@ -15,3 +15,8 @@ print(thisList)
 #Insert Items
 thisList.insert(2,"blackcurrant")
 print(thisList)
+
+#Extend List
+tropical = ["mango", "pineapple", "papaya"]
+thisList.extend(tropical)
+print(thisList)
