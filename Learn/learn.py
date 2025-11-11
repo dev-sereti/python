@@ -1,9 +1,13 @@
 #Sort List Alphanumerically
 
-fruits = ["apple","kiwi", "mango","banana", "cherry"]
+fruits = ["apple","Kiwi", "mango","banana", "cherry"]
 
 fruits.sort()
 print(fruits)
 #Sort Descending
 fruits.sort(reverse=True)
+print(fruits)
+
+#Case Insensitive Sort
+fruits.sort(key=str.lower)
 print(fruits)
