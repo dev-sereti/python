@@ -6,3 +6,4 @@ fruits.sort()
 print(fruits)
 #Sort Descending
 fruits.sort(reverse=True)
+print(fruits)
