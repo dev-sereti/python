@@ -1,8 +1,6 @@
-#List Comprehension
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newFruits = []
+#Sort List Alphanumerically
 
-for i in fruits:
-  if "a" in i:
-    newFruits.append(i)
-print(newFruits)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+fruits.sort()
+print(fruits)
