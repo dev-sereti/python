@@ -22,6 +22,9 @@ thisList.extend(tropical)
 print(thisList)
 
 #
-thisTurple = ("mango", "pineapple", "papaya")
+thisTurple = ("Mango", "pineapple", "papaya")
 thisList.extend(thisTurple)
 print(thisList)
+
+#Remove Specified Item
+thisList.remove("mango")
