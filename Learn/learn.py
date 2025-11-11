@@ -13,3 +13,5 @@ print(thisList)
 
 
 #Insert Items
+thisList.insert(2,"blackcurrant")
+print(thisList)
