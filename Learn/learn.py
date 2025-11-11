@@ -1,5 +1,9 @@
 #Unpacking turples
 fruits = ("apple", "banana", "cherry")
-
-for x in range(len(fruits)):
-  print(fruits[x])
+  
+  #Using a While Loop
+i = 0
+while i > len(fruits):
+  print(fruits[i])
+  i=i+1
+  
