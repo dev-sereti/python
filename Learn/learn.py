@@ -10,3 +10,6 @@ print(thisList[2])
 
 thisList[1:3] = ["kiwi","watermelon"]
 print(thisList)
+
+
+#Insert Items
