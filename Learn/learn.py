@@ -28,3 +28,8 @@ print(thisList)
 
 #Remove Specified Item
 thisList.remove("mango")
+print(thisList)
+
+#Remove Specified Index
+thisList.pop(4)
+print(thisList)
