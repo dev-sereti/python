@@ -1,4 +1,8 @@
-#Loop Through a List
-fruits = ["Banana","Orange","watermelon","Cherry","papaya"]
-for i in fruits:
-  print(i)
+#Using a While Loop
+fruit = ["strawberries","pineapples","blueberries","grapes"]
+
+i=0
+while i < len(fruit):
+  print(fruit[i])
+  i=i+1
+
