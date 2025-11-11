@@ -20,3 +20,8 @@ print(thisList)
 tropical = ["mango", "pineapple", "papaya"]
 thisList.extend(tropical)
 print(thisList)
+
+#
+thisTurple = ("mango", "pineapple", "papaya")
+thisList.extend(thisTurple)
+print(thisList)
