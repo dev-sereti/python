@@ -33,3 +33,8 @@ print(thisList)
 #Remove Specified Index
 thisList.pop(4)
 print(thisList)
+
+#Use del to delete item
+del thisList[2]
+print(thisList)
+
