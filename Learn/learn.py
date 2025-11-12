@@ -1,10 +1,8 @@
-#Python *args and **kwargs
+#Python Scope
 
-def sum_all(*args):
-    total = 0
-    for num in args:
-        total += num
-    return total
+#Local Scope
 
-print(sum_all(1, 2, 3))
-#print(sum_all(10, 20, 30, 40))
+def localScope():
+    age = 26
+    print (age)
+localScope()
