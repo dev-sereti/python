@@ -6,6 +6,7 @@ def localScope():
     age = 26
     print (age)
 localScope()
+#print(age)
 
 
 #Global scope
