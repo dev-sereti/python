@@ -1,18 +1,12 @@
-#Python Scope
+#Decorators
 
-#Local Scope
+def changecase(func):
+  def myinner():
+    return func().upper()
+  return myinner
 
-def localScope():
-    age = 26
-    print (age)
-localScope()
-#print(age)
+@changecase
+def myfunction():
+  return "Hello Sally"
 
-
-#Global scope
-x = 300
-
-def myfunc():
-  print(x)
-myfunc()
-print(x)
+print(myfunction())
