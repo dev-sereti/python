@@ -26,4 +26,6 @@ print("4. Division")
 
 choice = ("Enter choice (1/2/3/4): ")
 
+if choice not in ['1', '2', '3', '4']:
+    print("Invalid choice! Please restart the program.")
 
