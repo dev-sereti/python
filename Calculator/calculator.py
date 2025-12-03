@@ -24,4 +24,6 @@ print("2. Subtraction")
 print("3. Multiplication")
 print("4. Division")
 
+choice = ("Enter choice (1/2/3/4): ")
+
 
