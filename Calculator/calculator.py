@@ -6,3 +6,7 @@ def addition(a,b):
 def subraction(a,b):
     return a-b
 
+#Multiplication
+def multiplication(a,b):
+    return a*b
+
